@@ -1,0 +1,101 @@
+number,date,item name,price,supplier name,category,type
+1,2024-01-07,Property Tax,408.75,Dynamic Systems,taxation,-
+2,2023-07-28,Travel Expenses,126.12,Acme Corporation,other expenses,-
+3,2024-10-21,Raw Materials,636.62,XYZ Company,purchase,-
+4,2023-04-13,Commercial Vehicles,573.0,Your Company Name,sales,+
+5,2024-12-05,Furniture,521.03,Pioneer Industries,purchase,-
+6,2023-01-15,Rent,492.12,Sunset Enterprises,overheads,-
+7,2024-01-04,Taxes,484.2,Global Enterprises,taxation,-
+8,2024-10-17,Professional Fees,257.09,Sunset Enterprises,other expenses,-
+9,2024-09-19,Rent,249.83,ABC Traders,overheads,-
+10,2023-06-14,Travel Expenses,356.41,Quality Supplies,other expenses,-
+11,2023-07-21,Rent,66.11,Quality Supplies,overheads,-
+12,2023-05-12,Marketing Campaigns,589.86,Prime Industries,direct expenses,-
+13,2023-05-04,Office Equipment,194.6,Infinite Ventures,purchase,-
+14,2023-10-22,Marketing Campaigns,186.09,Sunset Enterprises,direct expenses,-
+15,2024-03-13,Event Management,252.79,Your Company Name,other income,+
+16,2024-08-23,Electronics,166.87,Quality Supplies,sales,+
+17,2023-08-03,Rent,580.04,Dynamic Systems,overheads,-
+18,2024-11-19,Sales Tax,528.8,Alpha Ltd,taxation,-
+19,2023-12-22,Computers,157.01,Apex Solutions,purchase,-
+20,2024-10-12,Intellectual Property,165.09,Your Company Name,other income,+
+21,2024-09-11,Income Tax,242.47,Quality Supplies,taxation,-
+22,2024-10-07,Sales Tax,148.84,Alpha Ltd,taxation,-
+23,2023-08-21,Income Tax,225.79,Dynamic Systems,taxation,-
+24,2023-06-11,Commercial Vehicles,491.63,ABC Traders,sales,+
+25,2024-05-12,Taxes,306.58,Quality Supplies,taxation,-
+26,2023-04-11,Sales Tax,425.37,Mega Corp,taxation,-
+27,2024-02-23,Computers,112.58,Sunrise Enterprises,purchase,-
+28,2023-11-19,Office Equipment,91.79,Mega Corp,purchase,-
+29,2024-05-03,Shipping Charges,370.07,Strategic Holdings,direct expense,-
+30,2024-06-06,Intellectual Property,748.89,Your Company Name,other income,+
+31,2023-06-08,Raw Materials,119.46,Elevate Inc,purchase,-
+32,2023-06-23,Raw Materials,664.04,Alpha Ltd,purchase,-
+33,2024-08-02,Event Management,299.03,Bravo Corporation,other income,+
+34,2024-06-27,Advertising,498.37,Quality Supplies,direct expense,-
+35,2024-03-15,Sales Tax,771.97,Powerful Systems,taxation,-
+36,2023-04-06,Raw Materials,613.04,Omega Solutions,purchase,-
+37,2024-09-07,Training Programs,315.36,Your Company Name,other income,+
+38,2024-04-21,Property Tax,532.55,XYZ Company,taxation,-
+39,2023-09-24,Intellectual Property,761.3,Dynamic Systems,other income,+
+40,2023-06-23,Professional Fees,69.78,Powerful Systems,other expenses,-
+41,2024-12-13,Sales Tax,471.04,Omega Solutions,taxation,-
+42,2023-02-17,Shipping Charges,101.37,Sunrise Enterprises,direct expense,-
+43,2024-10-24,Furniture,73.92,Sunrise Enterprises,purchase,-
+44,2023-01-18,Travel Expenses,129.3,Global Enterprises,other expenses,-
+45,2023-07-05,Professional Fees,399.91,Pioneer Industries,other expenses,-
+46,2023-03-21,Raw Materials,239.39,Alpha Ltd,purchase,-
+47,2023-05-02,Utilities,244.01,Bravo Corporation,direct expense,-
+48,2024-04-02,Licensing Fees,702.97,Alpha Ltd,other income,+
+49,2024-07-09,Training Programs,668.79,Your Company Name,other income,+
+50,2024-06-09,Travel Expenses,335.87,Pioneer Industries,other expenses,-
+51,2023-05-20,Intellectual Property,284.51,Your Company Name,other income,+
+52,2024-10-03,Professional Fees,537.94,Elevate Inc,other expenses,-
+53,2024-10-22,Software Solutions,51.61,Your Company Name,sales,+
+54,2024-01-11,Travel Expenses,59.86,Alpha Ltd,other expenses,-
+55,2023-04-16,Property Tax,513.21,Powerful Systems,taxation,-
+56,2024-11-11,Raw Materials,472.02,Quality Supplies,purchase,-
+57,2023-01-23,Industrial Equipment,374.3,Your Company Name,sales,+
+58,2024-08-27,Sales Tax,605.81,Powerful Systems,taxation,-
+59,2023-09-09,Licensing Fees,72.43,Omega Solutions,other income,+
+60,2023-06-02,Commercial Vehicles,144.19,Your Company Name,sales,+
+61,2024-12-13,Consulting Services,50.28,Your Company Name,sales,+
+62,2023-10-19,Licensing Fees,505.42,Acme Corporation,other income,+
+63,2023-01-14,Marketing Campaigns,222.09,Powerful Systems,other expenses,-
+64,2023-04-03,Software Solutions,413.16,Dynamic Systems,sales,+
+65,2024-05-04,Electronics,175.58,Your Company Name,sales,+
+66,2024-08-07,Commercial Vehicles,593.86,Alpha Ltd,sales,+
+67,2024-09-28,Furniture,440.65,Pioneer Industries,purchase,-
+68,2024-05-26,Marketing Campaigns,478.53,Powerful Systems,other expenses,-
+69,2023-05-16,Consulting Services,334.28,Your Company Name,sales,+
+70,2023-01-08,Industrial Equipment,126.8,Strategic Holdings,sales,+
+71,2023-10-19,Intellectual Property,594.32,Omega Solutions,other income,+
+72,2023-05-16,Industrial Equipment,142.39,Acme Corporation,sales,+
+73,2023-08-14,Income Tax,627.34,Elevate Inc,taxation,-
+74,2023-06-24,Event Management,203.7,Pioneer Industries,other income,+
+75,2024-09-16,Insurance,569.09,ABC Traders,overheads,-
+76,2023-06-12,Professional Fees,397.13,Strategic Holdings,other expenses,-
+77,2024-03-23,Consulting Services,122.62,Your Company Name,sales,+
+78,2024-07-19,Labor Costs,124.27,Apex Solutions,direct expense,-
+79,2023-02-27,Travel Expenses,439.71,Pioneer Industries,other expenses,-
+80,2023-03-09,Utilities,338.88,Mega Corp,direct expense,-
+81,2024-08-03,Sales Tax,692.77,Powerful Systems,taxation,-
+82,2023-05-23,Professional Fees,332.99,Sunset Enterprises,other expenses,-
+83,2023-03-19,Training Programs,197.18,Quality Supplies,other income,+
+84,2024-06-20,Insurance,473.31,Bravo Corporation,overheads,-
+85,2024-02-04,Rent,605.89,Global Enterprises,overheads,-
+86,2023-01-24,Computers,40.07,Infinite Ventures,purchase,-
+87,2023-07-22,Professional Fees,116.33,Powerful Systems,other expenses,-
+88,2024-11-12,Shipping Charges,516.68,Tech Innovators,direct expense,-
+89,2023-11-05,Maintenance Services,368.37,Alpha Ltd,direct expense,-
+90,2023-10-15,Machinery,455.04,Powerful Systems,purchase,-
+91,2023-06-21,Office Equipment,742.27,Bravo Corporation,purchase,-
+92,2024-09-20,Maintenance Services,110.24,Dynamic Systems,direct expense,-
+93,2024-08-13,Training Programs,328.82,ABC Traders,other income,+
+94,2024-04-27,Travel Expenses,542.75,Apex Solutions,other expenses,-
+95,2024-02-21,Intellectual Property,173.32,Strategic Holdings,other income,+
+96,2024-05-26,Income Tax,757.45,Strategic Holdings,taxation,-
+97,2024-04-24,Sales Tax,194.11,Apex Solutions,taxation,-
+98,2024-10-28,Rent,576.37,Prime Industries,overheads,-
+99,2024-06-17,Electronics,647.61,Apex Solutions,sales,+
+100,2023-07-11,Furniture,627.71,Tech Innovators,purchase,-
