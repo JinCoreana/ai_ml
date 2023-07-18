@@ -1,101 +1,101 @@
 number,date,item name,price,supplier name,category,type
-1,2024-01-07,Property Tax,408.75,Dynamic Systems,taxation,-
-2,2023-07-28,Travel Expenses,126.12,Acme Corporation,other expenses,-
-3,2024-10-21,Raw Materials,636.62,XYZ Company,purchase,-
-4,2023-04-13,Commercial Vehicles,573.0,Tech Innovators,sales,+
-5,2024-12-05,Furniture,521.03,Pioneer Industries,purchase,-
-6,2023-01-15,Rent,492.12,Sunset Enterprises,overheads,-
-7,2024-01-04,Taxes,484.2,Global Enterprises,overheads,-
-8,2024-10-17,Professional Fees,257.09,Sunset Enterprises,other expenses,-
-9,2024-09-19,Rent,249.83,ABC Traders,overheads,-
-10,2023-06-14,Travel Expenses,356.41,Quality Supplies,other expenses,-
-11,2023-07-21,Rent,66.11,Quality Supplies,overheads,-
-12,2023-05-12,Marketing Campaigns,589.86,Prime Industries,other expenses,-
-13,2023-05-04,Office Equipment,194.6,Infinite Ventures,purchase,-
-14,2023-10-22,Marketing Campaigns,186.09,Sunset Enterprises,other expenses,-
-15,2024-03-13,Event Management,252.79,Bravo Corporation,other income,+
-16,2024-08-23,Electronics,166.87,Quality Supplies,sales,+
-17,2023-08-03,Rent,580.04,Dynamic Systems,overheads,-
-18,2024-11-19,Sales Tax,528.8,Alpha Ltd,taxation,-
-19,2023-12-22,Computers,157.01,Apex Solutions,purchase,-
-20,2024-10-12,Intellectual Property,165.09,Global Enterprises,other income,+
-21,2024-09-11,Income Tax,242.47,Quality Supplies,taxation,-
-22,2024-10-07,Sales Tax,148.84,Alpha Ltd,taxation,-
-23,2023-08-21,Income Tax,225.79,Dynamic Systems,taxation,-
-24,2023-06-11,Commercial Vehicles,491.63,ABC Traders,sales,+
-25,2024-05-12,Taxes,306.58,Quality Supplies,overheads,-
-26,2023-04-11,Sales Tax,425.37,Mega Corp,taxation,-
-27,2024-02-23,Computers,112.58,Sunrise Enterprises,purchase,-
-28,2023-11-19,Office Equipment,91.79,Mega Corp,purchase,-
-29,2024-05-03,Shipping Charges,370.07,Strategic Holdings,direct expense,-
-30,2024-06-06,Intellectual Property,748.89,Powerful Systems,other income,+
-31,2023-06-08,Raw Materials,119.46,Elevate Inc,purchase,-
-32,2023-06-23,Raw Materials,664.04,Alpha Ltd,purchase,-
-33,2024-08-02,Event Management,299.03,Bravo Corporation,other income,+
-34,2024-06-27,Advertising,498.37,Quality Supplies,overheads,-
-35,2024-03-15,Sales Tax,771.97,Powerful Systems,taxation,-
-36,2023-04-06,Raw Materials,613.04,Omega Solutions,purchase,-
-37,2024-09-07,Training Programs,315.36,Sunset Enterprises,other income,+
-38,2024-04-21,Property Tax,532.55,XYZ Company,taxation,-
-39,2023-09-24,Intellectual Property,761.3,Dynamic Systems,other income,+
-40,2023-06-23,Professional Fees,69.78,Powerful Systems,other expenses,-
-41,2024-12-13,Sales Tax,471.04,Omega Solutions,taxation,-
-42,2023-02-17,Shipping Charges,101.37,Sunrise Enterprises,direct expense,-
-43,2024-10-24,Furniture,73.92,Sunrise Enterprises,purchase,-
-44,2023-01-18,Travel Expenses,129.3,Global Enterprises,other expenses,-
-45,2023-07-05,Professional Fees,399.91,Pioneer Industries,other expenses,-
-46,2023-03-21,Raw Materials,239.39,Alpha Ltd,purchase,-
-47,2023-05-02,Utilities,244.01,Bravo Corporation,direct expense,-
-48,2024-04-02,Licensing Fees,702.97,Alpha Ltd,other income,+
-49,2024-07-09,Training Programs,668.79,Bravo Corporation,other income,+
-50,2024-06-09,Travel Expenses,335.87,Pioneer Industries,other expenses,-
-51,2023-05-20,Intellectual Property,284.51,Bravo Corporation,other income,+
-52,2024-10-03,Professional Fees,537.94,Elevate Inc,other expenses,-
-53,2024-10-22,Software Solutions,51.61,Apex Solutions,sales,+
-54,2024-01-11,Travel Expenses,59.86,Alpha Ltd,other expenses,-
-55,2023-04-16,Property Tax,513.21,Powerful Systems,taxation,-
-56,2024-11-11,Raw Materials,472.02,Quality Supplies,purchase,-
-57,2023-01-23,Industrial Equipment,374.3,XYZ Company,sales,+
-58,2024-08-27,Sales Tax,605.81,Powerful Systems,taxation,-
-59,2023-09-09,Licensing Fees,72.43,Omega Solutions,other income,+
-60,2023-06-02,Commercial Vehicles,144.19,XYZ Company,sales,+
-61,2024-12-13,Consulting Services,50.28,Tech Innovators,sales,+
-62,2023-10-19,Licensing Fees,505.42,Acme Corporation,other income,+
-63,2023-01-14,Marketing Campaigns,222.09,Powerful Systems,other expenses,-
-64,2023-04-03,Software Solutions,413.16,Dynamic Systems,sales,+
-65,2024-05-04,Electronics,175.58,Tech Innovators,sales,+
-66,2024-08-07,Commercial Vehicles,593.86,Alpha Ltd,sales,+
-67,2024-09-28,Furniture,440.65,Pioneer Industries,purchase,-
-68,2024-05-26,Marketing Campaigns,478.53,Powerful Systems,other expenses,-
-69,2023-05-16,Consulting Services,334.28,XYZ Company,sales,+
-70,2023-01-08,Industrial Equipment,126.8,Strategic Holdings,sales,+
-71,2023-10-19,Intellectual Property,594.32,Omega Solutions,other income,+
-72,2023-05-16,Industrial Equipment,142.39,Acme Corporation,sales,+
-73,2023-08-14,Income Tax,627.34,Elevate Inc,taxation,-
-74,2023-06-24,Event Management,203.7,Pioneer Industries,other income,+
-75,2024-09-16,Insurance,569.09,ABC Traders,overheads,-
-76,2023-06-12,Professional Fees,397.13,Strategic Holdings,other expenses,-
-77,2024-03-23,Consulting Services,122.62,Tech Innovators,sales,+
-78,2024-07-19,Labor Costs,124.27,Apex Solutions,direct expense,-
-79,2023-02-27,Travel Expenses,439.71,Pioneer Industries,other expenses,-
-80,2023-03-09,Utilities,338.88,Mega Corp,direct expense,-
-81,2024-08-03,Sales Tax,692.77,Powerful Systems,taxation,-
-82,2023-05-23,Professional Fees,332.99,Sunset Enterprises,other expenses,-
-83,2023-03-19,Training Programs,197.18,Quality Supplies,other income,+
-84,2024-06-20,Insurance,473.31,Bravo Corporation,overheads,-
-85,2024-02-04,Rent,605.89,Global Enterprises,overheads,-
-86,2023-01-24,Computers,40.07,Infinite Ventures,purchase,-
-87,2023-07-22,Professional Fees,116.33,Powerful Systems,other expenses,-
-88,2024-11-12,Shipping Charges,516.68,Tech Innovators,direct expense,-
-89,2023-11-05,Maintenance Services,368.37,Alpha Ltd,direct expense,-
-90,2023-10-15,Machinery,455.04,Powerful Systems,purchase,-
-91,2023-06-21,Office Equipment,742.27,Bravo Corporation,purchase,-
-92,2024-09-20,Maintenance Services,110.24,Dynamic Systems,direct expense,-
-93,2024-08-13,Training Programs,328.82,ABC Traders,other income,+
-94,2024-04-27,Travel Expenses,542.75,Apex Solutions,other expenses,-
-95,2024-02-21,Intellectual Property,173.32,Strategic Holdings,other income,+
-96,2024-05-26,Income Tax,757.45,Strategic Holdings,taxation,-
-97,2024-04-24,Sales Tax,194.11,Apex Solutions,taxation,-
-98,2024-10-28,Rent,576.37,Prime Industries,overheads,-
-99,2024-06-17,Electronics,647.61,Apex Solutions,sales,+
-100,2023-07-11,Furniture,627.71,Tech Innovators,purchase,-
+1,2024-10-21,Item-1-mfHD,376.0,Supplier-1-TKMg,sales,+
+2,2023-05-08,Item-2-DeDT,756.08,Supplier-2-upQj,other income,+
+3,2023-10-24,Item-3-ANla,340.3,Supplier-3-Yuzo,direct expense,-
+4,2023-01-07,Item-4-RIgK,185.1,Supplier-4-ZCwx,purchase,-
+5,2023-11-17,Item-5-hZpJ,369.14,Supplier-5-hYXT,direct expense,-
+6,2023-03-02,Item-6-yslJ,247.16,Supplier-6-ywKS,taxation,-
+7,2024-02-04,Item-7-lQQu,44.27,Supplier-7-skUa,purchase,-
+8,2024-08-03,Item-8-wqmK,433.76,Supplier-8-jJPG,other income,+
+9,2024-08-27,Item-9-itKU,627.68,Supplier-9-Qdpr,direct expense,-
+10,2024-08-01,Item-10-nicY,542.0,Supplier-10-kklG,other expenses,-
+11,2023-09-19,Item-11-cUAi,312.42,Supplier-11-vEaq,other expenses,-
+12,2024-02-17,Item-12-wRyT,378.17,Supplier-12-OGQX,taxation,-
+13,2023-08-07,Item-13-nFHi,222.98,Supplier-13-VuSg,direct expense,-
+14,2023-07-10,Item-14-KARy,326.25,Supplier-14-pOfS,purchase,-
+15,2024-12-07,Item-15-pEtM,230.2,Supplier-15-MQuw,overheads,-
+16,2023-02-06,Item-16-mpdZ,395.6,Supplier-16-BEow,direct expense,-
+17,2023-10-22,Item-17-jVdR,354.07,Supplier-17-ApXF,overheads,-
+18,2024-10-26,Item-18-pywu,47.23,Supplier-18-Wzfy,other expenses,-
+19,2024-08-03,Item-19-DDMj,748.63,Supplier-19-eHZi,other income,+
+20,2023-11-22,Item-20-xMAw,47.72,Supplier-20-rPNR,sales,+
+21,2024-01-22,Item-21-iUEH,352.88,Supplier-21-uIDr,overheads,-
+22,2023-02-14,Item-22-xRKU,296.57,Supplier-22-qzEm,sales,+
+23,2023-12-02,Item-23-Ftcd,233.83,Supplier-23-NAbo,sales,+
+24,2024-10-09,Item-24-KXnw,360.41,Supplier-24-GkRp,other expenses,-
+25,2023-03-28,Item-25-BVRj,323.53,Supplier-25-vCgv,purchase,-
+26,2024-04-20,Item-26-bcZD,557.45,Supplier-26-IpRl,taxation,-
+27,2024-11-16,Item-27-eovk,236.51,Supplier-27-GptO,other expenses,-
+28,2023-06-21,Item-28-iMEX,314.07,Supplier-28-pBpw,direct expense,-
+29,2024-09-02,Item-29-snQf,706.21,Supplier-29-DuGN,sales,+
+30,2023-06-28,Item-30-PUZk,597.4,Supplier-30-sKWv,purchase,-
+31,2024-10-04,Item-31-zmzM,37.57,Supplier-31-HVoV,other income,+
+32,2023-12-03,Item-32-NsaX,760.86,Supplier-32-xkgj,taxation,-
+33,2023-07-25,Item-33-kXey,485.86,Supplier-33-QsFZ,other expenses,-
+34,2024-10-09,Item-34-UuTC,46.11,Supplier-34-YxHI,other expenses,-
+35,2024-05-28,Item-35-Jrac,630.69,Supplier-35-yIMR,direct expense,-
+36,2024-12-25,Item-36-YaQa,227.46,Supplier-36-hUCi,taxation,-
+37,2024-12-03,Item-37-lRqm,230.82,Supplier-37-NvHG,other expenses,-
+38,2024-08-28,Item-38-WJSq,366.33,Supplier-38-oPRK,other expenses,-
+39,2023-05-21,Item-39-LbYz,795.73,Supplier-39-DsgU,overheads,-
+40,2024-03-05,Item-40-YjgT,726.64,Supplier-40-wAjE,sales,+
+41,2023-01-25,Item-41-bCPq,655.25,Supplier-41-NFej,sales,+
+42,2024-11-08,Item-42-qDkK,239.91,Supplier-42-sfqG,direct expense,-
+43,2023-12-10,Item-43-iVPf,626.2,Supplier-43-lZKe,taxation,-
+44,2024-05-13,Item-44-bUok,31.44,Supplier-44-XVeU,overheads,-
+45,2023-08-24,Item-45-NpNa,59.45,Supplier-45-lMas,direct expense,-
+46,2023-07-16,Item-46-rQeh,574.77,Supplier-46-FhNC,direct expense,-
+47,2024-05-21,Item-47-xHPL,649.41,Supplier-47-cNGB,overheads,-
+48,2024-06-15,Item-48-XsUi,77.44,Supplier-48-bdSi,direct expense,-
+49,2023-03-01,Item-49-qrNY,716.52,Supplier-49-vWOM,purchase,-
+50,2024-11-03,Item-50-bchV,92.26,Supplier-50-sQEu,other expenses,-
+51,2023-06-11,Item-51-Xahm,778.77,Supplier-51-PBEq,other income,+
+52,2024-10-22,Item-52-nmyQ,657.24,Supplier-52-Ryja,direct expense,-
+53,2023-01-01,Item-53-EsrM,151.01,Supplier-53-atZv,direct expense,-
+54,2024-06-02,Item-54-HwhH,106.16,Supplier-54-dimg,direct expense,-
+55,2023-09-16,Item-55-UwTZ,279.12,Supplier-55-Wifp,taxation,-
+56,2024-03-16,Item-56-YaPi,569.47,Supplier-56-paSz,taxation,-
+57,2024-02-15,Item-57-ToOr,146.2,Supplier-57-eoWY,other expenses,-
+58,2024-05-10,Item-58-qlLx,275.79,Supplier-58-SlBE,other expenses,-
+59,2024-09-17,Item-59-RILq,194.05,Supplier-59-tFpk,other income,+
+60,2024-01-18,Item-60-ektL,697.27,Supplier-60-HDEy,purchase,-
+61,2023-06-25,Item-61-hpUb,730.88,Supplier-61-hzVo,purchase,-
+62,2023-06-01,Item-62-vTuo,191.74,Supplier-62-sHhd,other income,+
+63,2023-10-06,Item-63-mWAQ,424.76,Supplier-63-zuKq,other expenses,-
+64,2024-10-21,Item-64-hBeF,69.36,Supplier-64-nRGW,other income,+
+65,2024-07-16,Item-65-vqFR,268.2,Supplier-65-hoRl,other expenses,-
+66,2023-11-22,Item-66-ViYZ,248.06,Supplier-66-pATF,overheads,-
+67,2023-07-14,Item-67-VKSk,163.92,Supplier-67-DlST,other income,+
+68,2023-09-21,Item-68-JtpQ,561.45,Supplier-68-bJxl,other expenses,-
+69,2023-01-03,Item-69-YIjh,638.72,Supplier-69-bjwb,direct expense,-
+70,2023-03-12,Item-70-hBTu,792.8,Supplier-70-JQHo,purchase,-
+71,2023-03-02,Item-71-vfVH,286.73,Supplier-71-FZNp,sales,+
+72,2023-03-27,Item-72-dImx,691.82,Supplier-72-nxnH,purchase,-
+73,2024-05-28,Item-73-HEfc,736.2,Supplier-73-JfPA,direct expense,-
+74,2023-04-26,Item-74-wIAw,428.39,Supplier-74-eORP,other income,+
+75,2023-07-19,Item-75-bDjs,111.52,Supplier-75-Kllr,taxation,-
+76,2023-07-09,Item-76-JoNK,268.98,Supplier-76-ocks,overheads,-
+77,2023-09-11,Item-77-aOpf,682.08,Supplier-77-xqAS,direct expense,-
+78,2024-01-11,Item-78-HVIQ,135.25,Supplier-78-LfCE,overheads,-
+79,2023-07-12,Item-79-zdgi,296.49,Supplier-79-crTA,purchase,-
+80,2023-09-22,Item-80-azzb,112.21,Supplier-80-ePXy,taxation,-
+81,2023-06-03,Item-81-zmJB,754.34,Supplier-81-nlDT,sales,+
+82,2024-11-13,Item-82-XdKo,300.17,Supplier-82-LkQL,direct expense,-
+83,2023-06-05,Item-83-Yryc,183.71,Supplier-83-PBHR,other income,+
+84,2023-03-28,Item-84-XCHp,135.46,Supplier-84-Wnqr,other income,+
+85,2023-06-11,Item-85-iuxN,123.7,Supplier-85-PKVE,other expenses,-
+86,2023-02-13,Item-86-wZpV,659.86,Supplier-86-CXXf,sales,+
+87,2024-12-07,Item-87-JfXA,761.78,Supplier-87-ZWSF,purchase,-
+88,2023-08-25,Item-88-BLQw,320.61,Supplier-88-NqhD,direct expense,-
+89,2023-12-04,Item-89-cXDm,516.96,Supplier-89-VQVj,other income,+
+90,2023-07-09,Item-90-Rxqf,165.91,Supplier-90-zVbt,direct expense,-
+91,2024-06-11,Item-91-qkmI,44.62,Supplier-91-KEKv,overheads,-
+92,2023-02-02,Item-92-Bamp,641.87,Supplier-92-CtnK,sales,+
+93,2023-07-08,Item-93-mrIe,253.22,Supplier-93-fLWp,sales,+
+94,2024-06-21,Item-94-AkOL,783.28,Supplier-94-obzH,purchase,-
+95,2024-08-10,Item-95-dbrU,58.14,Supplier-95-qtAM,taxation,-
+96,2023-01-08,Item-96-VyOL,614.75,Supplier-96-FcSC,taxation,-
+97,2023-06-11,Item-97-esxI,643.29,Supplier-97-fspZ,purchase,-
+98,2024-09-12,Item-98-UYpK,735.56,Supplier-98-nzXZ,overheads,-
+99,2023-04-02,Item-99-PXKw,311.49,Supplier-99-NwLT,purchase,-
+100,2023-04-16,Item-100-wkLH,327.91,Supplier-100-rPke,sales,+

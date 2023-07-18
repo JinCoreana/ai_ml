@@ -1,101 +1,305 @@
-number,date,item name,price,supplier name,category,type
-1,2024-01-07,Property Tax,408.75,Dynamic Systems,taxation,-
-2,2023-07-28,Travel Expenses,126.12,Acme Corporation,other expenses,-
-3,2024-10-21,Raw Materials,636.62,XYZ Company,purchase,-
-4,2023-04-13,Commercial Vehicles,573.0,Your Company Name,sales,+
-5,2024-12-05,Furniture,521.03,Pioneer Industries,purchase,-
-6,2023-01-15,Rent,492.12,Sunset Enterprises,overheads,-
-7,2024-01-04,Taxes,484.2,Global Enterprises,taxation,-
-8,2024-10-17,Professional Fees,257.09,Sunset Enterprises,other expenses,-
-9,2024-09-19,Rent,249.83,ABC Traders,overheads,-
-10,2023-06-14,Travel Expenses,356.41,Quality Supplies,other expenses,-
-11,2023-07-21,Rent,66.11,Quality Supplies,overheads,-
-12,2023-05-12,Marketing Campaigns,589.86,Prime Industries,direct expenses,-
-13,2023-05-04,Office Equipment,194.6,Infinite Ventures,purchase,-
-14,2023-10-22,Marketing Campaigns,186.09,Sunset Enterprises,direct expenses,-
-15,2024-03-13,Event Management,252.79,Your Company Name,other income,+
-16,2024-08-23,Electronics,166.87,Quality Supplies,sales,+
-17,2023-08-03,Rent,580.04,Dynamic Systems,overheads,-
-18,2024-11-19,Sales Tax,528.8,Alpha Ltd,taxation,-
-19,2023-12-22,Computers,157.01,Apex Solutions,purchase,-
-20,2024-10-12,Intellectual Property,165.09,Your Company Name,other income,+
-21,2024-09-11,Income Tax,242.47,Quality Supplies,taxation,-
-22,2024-10-07,Sales Tax,148.84,Alpha Ltd,taxation,-
-23,2023-08-21,Income Tax,225.79,Dynamic Systems,taxation,-
-24,2023-06-11,Commercial Vehicles,491.63,ABC Traders,sales,+
-25,2024-05-12,Taxes,306.58,Quality Supplies,taxation,-
-26,2023-04-11,Sales Tax,425.37,Mega Corp,taxation,-
-27,2024-02-23,Computers,112.58,Sunrise Enterprises,purchase,-
-28,2023-11-19,Office Equipment,91.79,Mega Corp,purchase,-
-29,2024-05-03,Shipping Charges,370.07,Strategic Holdings,direct expense,-
-30,2024-06-06,Intellectual Property,748.89,Your Company Name,other income,+
-31,2023-06-08,Raw Materials,119.46,Elevate Inc,purchase,-
-32,2023-06-23,Raw Materials,664.04,Alpha Ltd,purchase,-
-33,2024-08-02,Event Management,299.03,Bravo Corporation,other income,+
-34,2024-06-27,Advertising,498.37,Quality Supplies,direct expense,-
-35,2024-03-15,Sales Tax,771.97,Powerful Systems,taxation,-
-36,2023-04-06,Raw Materials,613.04,Omega Solutions,purchase,-
-37,2024-09-07,Training Programs,315.36,Your Company Name,other income,+
-38,2024-04-21,Property Tax,532.55,XYZ Company,taxation,-
-39,2023-09-24,Intellectual Property,761.3,Dynamic Systems,other income,+
-40,2023-06-23,Professional Fees,69.78,Powerful Systems,other expenses,-
-41,2024-12-13,Sales Tax,471.04,Omega Solutions,taxation,-
-42,2023-02-17,Shipping Charges,101.37,Sunrise Enterprises,direct expense,-
-43,2024-10-24,Furniture,73.92,Sunrise Enterprises,purchase,-
-44,2023-01-18,Travel Expenses,129.3,Global Enterprises,other expenses,-
-45,2023-07-05,Professional Fees,399.91,Pioneer Industries,other expenses,-
-46,2023-03-21,Raw Materials,239.39,Alpha Ltd,purchase,-
-47,2023-05-02,Utilities,244.01,Bravo Corporation,direct expense,-
-48,2024-04-02,Licensing Fees,702.97,Alpha Ltd,other income,+
-49,2024-07-09,Training Programs,668.79,Your Company Name,other income,+
-50,2024-06-09,Travel Expenses,335.87,Pioneer Industries,other expenses,-
-51,2023-05-20,Intellectual Property,284.51,Your Company Name,other income,+
-52,2024-10-03,Professional Fees,537.94,Elevate Inc,other expenses,-
-53,2024-10-22,Software Solutions,51.61,Your Company Name,sales,+
-54,2024-01-11,Travel Expenses,59.86,Alpha Ltd,other expenses,-
-55,2023-04-16,Property Tax,513.21,Powerful Systems,taxation,-
-56,2024-11-11,Raw Materials,472.02,Quality Supplies,purchase,-
-57,2023-01-23,Industrial Equipment,374.3,Your Company Name,sales,+
-58,2024-08-27,Sales Tax,605.81,Powerful Systems,taxation,-
-59,2023-09-09,Licensing Fees,72.43,Omega Solutions,other income,+
-60,2023-06-02,Commercial Vehicles,144.19,Your Company Name,sales,+
-61,2024-12-13,Consulting Services,50.28,Your Company Name,sales,+
-62,2023-10-19,Licensing Fees,505.42,Acme Corporation,other income,+
-63,2023-01-14,Marketing Campaigns,222.09,Powerful Systems,other expenses,-
-64,2023-04-03,Software Solutions,413.16,Dynamic Systems,sales,+
-65,2024-05-04,Electronics,175.58,Your Company Name,sales,+
-66,2024-08-07,Commercial Vehicles,593.86,Alpha Ltd,sales,+
-67,2024-09-28,Furniture,440.65,Pioneer Industries,purchase,-
-68,2024-05-26,Marketing Campaigns,478.53,Powerful Systems,other expenses,-
-69,2023-05-16,Consulting Services,334.28,Your Company Name,sales,+
-70,2023-01-08,Industrial Equipment,126.8,Strategic Holdings,sales,+
-71,2023-10-19,Intellectual Property,594.32,Omega Solutions,other income,+
-72,2023-05-16,Industrial Equipment,142.39,Acme Corporation,sales,+
-73,2023-08-14,Income Tax,627.34,Elevate Inc,taxation,-
-74,2023-06-24,Event Management,203.7,Pioneer Industries,other income,+
-75,2024-09-16,Insurance,569.09,ABC Traders,overheads,-
-76,2023-06-12,Professional Fees,397.13,Strategic Holdings,other expenses,-
-77,2024-03-23,Consulting Services,122.62,Your Company Name,sales,+
-78,2024-07-19,Labor Costs,124.27,Apex Solutions,direct expense,-
-79,2023-02-27,Travel Expenses,439.71,Pioneer Industries,other expenses,-
-80,2023-03-09,Utilities,338.88,Mega Corp,direct expense,-
-81,2024-08-03,Sales Tax,692.77,Powerful Systems,taxation,-
-82,2023-05-23,Professional Fees,332.99,Sunset Enterprises,other expenses,-
-83,2023-03-19,Training Programs,197.18,Quality Supplies,other income,+
-84,2024-06-20,Insurance,473.31,Bravo Corporation,overheads,-
-85,2024-02-04,Rent,605.89,Global Enterprises,overheads,-
-86,2023-01-24,Computers,40.07,Infinite Ventures,purchase,-
-87,2023-07-22,Professional Fees,116.33,Powerful Systems,other expenses,-
-88,2024-11-12,Shipping Charges,516.68,Tech Innovators,direct expense,-
-89,2023-11-05,Maintenance Services,368.37,Alpha Ltd,direct expense,-
-90,2023-10-15,Machinery,455.04,Powerful Systems,purchase,-
-91,2023-06-21,Office Equipment,742.27,Bravo Corporation,purchase,-
-92,2024-09-20,Maintenance Services,110.24,Dynamic Systems,direct expense,-
-93,2024-08-13,Training Programs,328.82,ABC Traders,other income,+
-94,2024-04-27,Travel Expenses,542.75,Apex Solutions,other expenses,-
-95,2024-02-21,Intellectual Property,173.32,Strategic Holdings,other income,+
-96,2024-05-26,Income Tax,757.45,Strategic Holdings,taxation,-
-97,2024-04-24,Sales Tax,194.11,Apex Solutions,taxation,-
-98,2024-10-28,Rent,576.37,Prime Industries,overheads,-
-99,2024-06-17,Electronics,647.61,Apex Solutions,sales,+
-100,2023-07-11,Furniture,627.71,Tech Innovators,purchase,-
+number,date,item,price,supplier,category,type
+101,2023-01-05,Marketing Strategy Consultation,1500.00,my company,sales,+
+102,2023-02-10,Online Advertising Campaign,2500.00,my company,sales,+
+103,2023-03-15,Social Media Management Services,1800.00,my company,sales,+
+104,2023-04-20,Content Creation Package,1200.00,my company,sales,+
+105,2023-05-25,Search Engine Optimization Services,3000.00,my company,sales,+
+106,2023-06-30,Email Marketing Campaign,2000.00,my company,sales,+
+107,2023-08-05,Print Advertising Design,1800.00,my company,sales,+
+108,2023-09-10,Event Marketing Services,2500.00,my company,sales,+
+109,2023-10-15,Brand Development Package,3500.00,my company,sales,+
+110,2023-11-20,Market Research and Analysis,2800.00,my company,sales,+
+111,2023-12-25,Video Production for Marketing,4000.00,my company,sales,+
+112,2024-02-01,Influencer Marketing Campaign,3200.00,my company,sales,+
+113,2024-03-08,Website Design and Development,3800.00,my company,sales,+
+114,2024-04-15,Mobile App Promotion,2700.00,my company,sales,+
+115,2024-05-20,Content Marketing Strategy,2200.00,my company,sales,+
+116,2024-06-25,Lead Generation Services,2900.00,my company,sales,+
+117,2024-08-01,Direct Mail Campaign,2000.00,my company,sales,+
+118,2024-09-05,Online Reputation Management,2400.00,my company,sales,+
+119,2024-10-10,Marketing Automation Implementation,3500.00,my company,sales,+
+120,2024-11-15,Public Relations Services,2800.00,my company,sales,+
+121,2025-01-01,Creative Advertising Concept,4000.00,my company,sales,+
+122,2025-02-06,Trade Show Marketing Services,3200.00,my company,sales,+
+123,2025-03-13,Branded Merchandise Production,3800.00,my company,sales,+
+124,2025-04-18,Online Video Advertising,2700.00,my company,sales,+
+125,2025-05-23,Marketing Analytics and Reporting,2200.00,my company,sales,+
+126,2025-06-28,Social Media Influencer Partnerships,2900.00,my company,sales,+
+127,2025-08-04,Content Localization Services,2000.00,my company,sales,+
+128,2025-09-08,Google Ads Campaign Management,2400.00,my company,sales,+
+129,2025-10-13,Email Newsletter Design and Distribution,3500.00,my company,sales,+
+130,2025-11-18,Podcast Advertising,2800.00,my company,sales,+
+131,2026-01-03,Outdoor Advertising Campaign,4000.00,my company,sales,+
+132,2026-02-08,Marketing Consultancy Services,3200.00,my company,sales,+
+133,2026-03-15,In-Store Promotions,3800.00,my company,sales,+
+134,2026-04-20,Video Marketing Services,2700.00,my company,sales,+
+135,2026-05-25,Graphic Design for Marketing Materials,2200.00,my company,sales,+
+136,2026-06-30,Affiliate Marketing Management,2900.00,my company,sales,+
+137,2026-08-05,Corporate Event Planning,2000.00,my company,sales,+
+138,2026-09-10,Online Contest or Sweepstakes,2400.00,my company,sales,+
+139,2026-10-15,Product Launch Campaign,3500.00,my company,sales,+
+140,2026-11-20,Mobile Marketing Solutions,2800.00,my company,sales,+
+141,2027-01-01,Content Curation and Distribution,4000.00,my company,sales,+
+142,2027-02-06,Inbound Marketing Strategy,3200.00,my company,sales,+
+143,2027-03-13,Trade Publication Advertising,3800.00,my company,sales,+
+144,2027-04-18,Influencer Outreach,2700.00,my company,sales,+
+145,2027-05-23,Website Conversion Optimization,2200.00,my company,sales,+
+146,2027-06-28,Brand Ambassador Program,2900.00,my company,sales,+
+147,2027-08-04,Sales Collateral Development,2000.00,my company,sales,+
+148,2027-09-08,Public Speaking Engagements,2400.00,my company,sales,+
+149,2027-10-13,Marketing Training and Workshops,3500.00,my company,sales,+
+150,2027-11-18,CRM Integration and Setup,2800.00,my company,sales,+
+151,2028-01-03,Content Marketing Campaign,4000.00,my company,sales,+
+152,2028-02-08,Social Media Advertising,3200.00,my company,sales,+
+153,2028-03-15,Print Collateral Design,3800.00,my company,sales,+
+154,2028-04-20,Google AdWords Management,2700.00,my company,sales,+
+155,2028-05-25,Product Packaging Design,2200.00,my company,sales,+
+156,2028-06-30,In-App Advertising,2900.00,my company,sales,+
+157,2028-08-05,Brand Identity Development,2000.00,my company,sales,+
+158,2028-09-10,Marketplace Advertising,2400.00,my company,sales,+
+159,2028-10-15,Digital Marketing Audit,3500.00,my company,sales,+
+160,2028-11-20,Video Testimonials,2800.00,my company,sales,+
+161,2023-01-01,Consulting Services,1000.00,my company,other income,+
+162,2023-02-02,Training Workshops,1500.00,my company,other income,+
+163,2023-03-03,Rental Income,1200.00,my company,other income,+
+164,2023-04-04,Investment Returns,2000.00,my company,other income,+
+165,2023-05-05,Interest Income,1800.00,my company,other income,+
+166,2023-06-06,Software Sales,1500.00,my company,other income,+
+167,2023-07-07,Equipment Leasing,2500.00,my company,other income,+
+168,2023-08-08,Legal Services,1200.00,my company,other income,+
+169,2023-09-09,Photography Services,1800.00,my company,other income,+
+170,2023-10-10,Graphic Design Services,1500.00,my company,other income,+
+171,2023-11-11,Referral,2000.00,my company,other income,+
+172,2023-12-12,Printing Services,1800.00,my company,other income,+
+173,2024-01-13,Event Space Rental,1500.00,my company,other income,+
+174,2024-02-14,IT Consultancy,2500.00,my company,other income,+
+175,2024-03-15,Copywriting Services,1200.00,my company,other income,+
+176,2024-04-16,Translation Services,1800.00,my company,other income,+
+177,2024-05-17,Virtual Assistant Services,1500.00,my company,other income,+
+178,2024-06-18,Accounting Services,2000.00,my company,other income,+
+179,2024-07-19,Event Planning Services,1800.00,my company,other income,+
+180,2024-08-20,Training Services,1500.00,my company,other income,+
+181,2024-09-21,Market Research Services,2500.00,my company,other income,+
+182,2024-10-22,Technical Support Services,1200.00,my company,other income,+
+183,2024-11-23,Data Analysis Services,1800.00,my company,other income,+
+184,2024-12-24,Office Space Rental,1500.00,my company,other income,+
+185,2025-01-25,Recruitment Services,2000.00,my company,other income,+
+186,2025-02-26,Training Material Sales,1800.00,my company,other income,+
+187,2025-03-27,App Development Services,1500.00,my company,other income,+
+188,2025-04-28,Research Reports Sales,2500.00,my company,other income,+
+189,2025-05-29,Data Entry Services,1200.00,my company,other income,+
+190,2025-06-30,Video Production Services,1800.00,my company,other income,+
+191,2025-08-01,Translation Services,1500.00,my company,other income,+
+192,2025-09-02,Legal Consultancy,2000.00,my company,other income,+
+193,2025-10-03,Graphic Design Services,1800.00,my company,other income,+
+194,2025-11-04,Marketplace Sales,1500.00,my company,other income,+
+195,2025-12-05,Financial Consulting,2500.00,my company,other income,+
+196,2026-01-06,Software Licensing,1200.00,my company,other income,+
+197,2026-02-07,Photography Services,1800.00,my company,other income,+
+198,2026-03-08,Advertising Space Rental,1500.00,my company,other income,+
+199,2026-04-09,IT Services,2000.00,my company,other income,+
+200,2026-05-10,Legal Services,1800.00,my company,other income,+
+201,2026-06-11,Marketing Consulting,1500.00,my company,other income,+
+202,2026-07-12,Event Equipment Rental,2500.00,my company,other income,+
+203,2026-08-13,Design Services,1200.00,my company,other income,+
+204,2026-09-14,Market Research Services,1800.00,my company,other income,+
+205,2026-10-15,Translation Services,1500.00,my company,other income,+
+206,2026-11-16,Translation,2000.00,my company,other income,+
+207,2026-12-17,Printing Services,1800.00,my company,other income,+
+208,2023-01-01,Advertising Costs,2000.00,Marketing Producers Inc.,direct expense,-
+209,2023-02-02,Printing and Production Costs,1500.00,Media Print Solutions,direct expense,-
+210,2023-03-03,Media Buying Expenses,1800.00,Strategic Media Services,direct expense,-
+211,2023-04-04,Graphic Design Fees,1200.00,Design Masters Agency,direct expense,-
+212,2023-05-05,Website Development Costs,2500.00,Web Solutions Corp.,direct expense,-
+213,2023-06-06,Photography and Videography Services,2200.00,Capture It Productions,direct expense,-
+214,2023-07-07,Content Creation Fees,1800.00,Creative Minds Studio,direct expense,-
+215,2023-08-08,Software Subscriptions,1500.00,Tech Solutions Ltd.,direct expense,-
+216,2023-09-09,Event Planning Expenses,3500.00,Event Management Experts,direct expense,-
+217,2023-10-10,Market Research Costs,2800.00,Insightful Research Agency,direct expense,-
+218,2023-11-11,Influencer Marketing Fees,4000.00,Influencer Connect Agency,direct expense,-
+219,2023-12-12,Email Marketing Services,3200.00,Email Marketing Pros,direct expense,-
+220,2024-01-13,Social Media Advertising Costs,3800.00,Social Buzz Agency,direct expense,-
+221,2024-02-14,Public Relations Fees,2700.00,PR Experts Inc.,direct expense,-
+222,2024-03-15,SEO Optimization Expenses,2200.00,Search Rank Boosters,direct expense,-
+223,2024-04-16,Video Production Costs,2900.00,Visual Storytellers Studio,direct expense,-
+224,2024-05-17,Print Collateral Expenses,2000.00,Print Producers Co.,direct expense,-
+225,2024-06-18,Direct Mail Costs,2400.00,Direct Mail Solutions,direct expense,-
+226,2024-07-19,Trade Show Expenses,3500.00,Trade Show Pros,direct expense,-
+227,2024-08-20,Branding Costs,2800.00,Brand Builders Agency,direct expense,-
+228,2024-09-21,Marketing Software Licenses,4000.00,MarketingTech Solutions,direct expense,-
+229,2024-10-22,Marketplace Advertising Fees,3200.00,Marketplace Boosters,direct expense,-
+230,2024-11-23,Content Distribution Costs,3800.00,Content Distribution Pro,direct expense,-
+231,2024-12-24,Online Reputation Management Fees,2700.00,Reputation Defenders,direct expense,-
+232,2025-01-25,Analytics Tools Subscriptions,2200.00,Data Analytics Corp.,direct expense,-
+233,2025-02-26,Sales Commission Payments,2900.00,Sales Producers Inc.,direct expense,-
+234,2025-03-27,Event Sponsorship Expenses,2000.00,Event Sponsor Connect,direct expense,-
+235,2025-04-28,Marketplace Listing Fees,2400.00,Marketplace Listings Ltd.,direct expense,-
+236,2025-05-29,CRM Software Subscriptions,3500.00,CRM Solutions Inc.,direct expense,-
+237,2025-06-30,Email Marketing Platform Fees,2800.00,Email Platform Pro,direct expense,-
+238,2025-07-31,Advertising Costs,2000.00,Media Geniuses Agency,direct expense,-
+239,2025-09-01,Printing and Production Costs,1500.00,Print Solutions Plus,direct expense,-
+240,2025-10-02,Media Buying Expenses,1800.00,Media Planners Inc.,direct expense,-
+241,2025-11-03,Graphic Design Fees,1200.00,Design Wizards Agency,direct expense,-
+242,2025-12-04,Website Development Costs,2500.00,Web Creators Corp.,direct expense,-
+243,2026-01-05,Photography and Videography Services,2200.00,Visual Moments Productions,direct expense,-
+244,2026-02-06,Content Creation Fees,1800.00,Content Creators Guild,direct expense,-
+245,2026-03-09,Software Subscriptions,1500.00,Tech Innovators Ltd.,direct expense,-
+246,2026-04-12,Event Planning Expenses,3500.00,Event Specialists Ltd.,direct expense,-
+247,2026-05-15,Market Research Costs,2800.00,Market Insight Consultants,direct expense,-
+248,2026-06-18,Influencer Marketing Fees,4000.00,Influencer Connection Agency,direct expense,-
+249,2026-07-22,Email Marketing Services,3200.00,Email Marketing Gurus,direct expense,-
+250,2026-08-26,Social Media Advertising Costs,3800.00,Social Media Buzzers,direct expense,-
+251,2026-09-30,Public Relations Fees,2700.00,PR Masters Inc.,direct expense,-
+252,2026-11-04,SEO Optimization Expenses,2200.00,Search Engine Boosters,direct expense,-
+253,2026-12-09,Video Production Costs,2900.00,Visual Producers Studio,direct expense,-
+254,2027-01-14,Print Collateral Expenses,2000.00,Print Masters Co.,direct expense,-
+255,2027-02-19,Direct Mail Costs,2400.00,Direct Mail Experts,direct expense,-
+256,2027-03-26,Trade Show Expenses,3500.00,Trade Show Specialists,direct expense,-
+257,2027-05-02,Branding Costs,2800.00,Brand Boosters Agency,direct expense,-
+258,2027-06-09,Marketing Software Licenses,4000.00,Marketing Solutions Corp.,direct expense,-
+259,2027-07-16,Marketplace Advertising Fees,3200.00,Marketplace Advertising Pro,direct expense,-
+260,2027-08-23,Content Distribution Costs,3800.00,Content Distribution Masters,direct expense,-
+261,2027-09-30,Online Reputation Management Fees,2700.00,Reputation Management Experts,direct expense,-
+262,2027-11-07,Analytics Tools Subscriptions,2200.00,Data Analytics Solutions,direct expense,-
+263,2023-01-01,Office Supplies,100.00,Office Depot,purchase,-
+264,2023-02-02,Lunch Meeting Expense,75.00,Local Catering Service,purchase,-
+265,2023-03-03,Sandwiches for Team,50.00,Neighborhood Deli,purchase,-
+266,2023-04-04,Office Cleaning Supplies,80.00,Janitorial Solutions,purchase,-
+267,2023-05-05,Team Building Activity,200.00,Escape Room Adventures,purchase,-
+268,2023-06-06,Printer Ink Cartridges,60.00,Ink & Toner Supplies,purchase,-
+269,2023-07-07,Refreshments for Training,75.00,Local Coffee Shop,purchase,-
+270,2023-08-08,Office Equipment Maintenance,120.00,Equipment Servicing Co.,purchase,-
+271,2023-09-09,Office Furniture,500.00,Furniture Warehouse,purchase,-
+272,2023-10-10,Team Lunch Celebration,150.00,Restaurant Catering Service,purchase,-
+273,2023-11-11,Stationery Supplies,50.00,Stationery Superstore,purchase,-
+274,2023-12-12,Coffee Machine Supplies,80.00,Coffee Supplier Inc.,purchase,-
+275,2024-01-13,Employee Birthday Celebration,100.00,Local Bakery,purchase,-
+276,2024-02-14,Whiteboard Markers,20.00,Office Supplies Express,purchase,-
+277,2024-03-15,Client Meeting Refreshments,60.00,Local Cafe,purchase,-
+278,2024-04-16,Print Paper Reams,30.00,Paper Products Ltd.,purchase,-
+279,2024-05-17,Office Plants,80.00,Plant Nursery,purchase,-
+280,2024-06-18,Staff Appreciation Gifts,200.00,Gifts and More Store,purchase,-
+281,2024-07-19,Office Software Licenses,300.00,Software Solutions Inc.,purchase,-
+282,2024-08-20,Office Snacks,100.00,Snack Supplier,purchase,-
+283,2024-09-21,Boardroom Chairs,400.00,Office Furniture Co.,purchase,-
+284,2024-10-22,Employee Training Materials,150.00,Training Supplies Ltd.,purchase,-
+285,2024-11-23,Artwork for Office,250.00,Art Gallery,purchase,-
+286,2024-12-24,Office Printer,600.00,Technology Superstore,purchase,-
+287,2025-01-25,Business Magazines Subscription,50.00,Online Magazine Service,purchase,-
+288,2025-02-26,Team Building Event,500.00,Event Management Company,purchase,-
+289,2025-03-27,Office Cleaning Service,200.00,Professional Cleaners,purchase,-
+290,2025-04-28,Desk Organizers,40.00,Organizing Solutions,purchase,-
+291,2025-05-29,Company T-shirts,300.00,Custom Printing Services,purchase,-
+292,2025-06-30,Office Safety Supplies,80.00,Safety Equipment Suppliers,purchase,-
+293,2025-08-01,Team Lunch Outing,200.00,Local Restaurant,purchase,-
+294,2025-09-02,External Training Program,500.00,Training Academy,purchase,-
+295,2025-10-03,Standing Desk,600.00,Office Furniture Co.,purchase,-
+296,2025-11-04,In-house Training Materials,150.00,Training Supplies Ltd.,purchase,-
+297,2025-12-05,Wall Clocks,50.00,Home Decor Store,purchase,-
+298,2026-01-06,External Consultant Fee,400.00,Professional Consultant,purchase,-
+299,2026-02-07,Water Dispenser,200.00,Office Equipment Supplier,purchase,-
+300,2026-03-08,Office Bookshelf,350.00,Office Furniture Co.,purchase,-
+301,2026-04-09,Annual Office Supplies Bulk Purchase,500.00,Wholesale Supplies,purchase,-
+302,2026-05-10,Company Anniversary Celebration,800.00,Event Planning Agency,purchase,-
+303,2026-06-11,File Cabinets,600.00,Office Furniture Co.,purchase,-
+304,2026-07-12,Team Building Workshop,250.00,Training Solutions Inc.,purchase,-
+305,2026-08-13,USB Flash Drives,100.00,Technology Store,purchase,-
+306,2026-09-14,New Employee Onboarding Materials,150.00,Office Supplies Express,purchase,-
+307,2026-10-15,Office Plant Maintenance,50.00,Plant Care Services,purchase,-
+308,2026-11-16,Company Picnic Event,600.00,Event Planning Agency,purchase,-
+309,2026-12-17,Office Shredder,300.00,Office Equipment Supplier,purchase,-
+310,2027-01-18,Conference Room Projector,800.00,Audiovisual Solutions,purchase,-
+311,2027-02-19,Annual Software Subscriptions,500.00,Software Solutions Inc.,purchase,-
+312,2027-03-20,Office Party Supplies,200.00,Party Supply Store,purchase,-
+313,2027-04-21,Staff Training Workshop,350.00,Training Solutions Inc.,purchase,-
+314,2027-05-22,File Folders,30.00,Office Supplies Express,purchase,-
+315,2027-06-23,In-house Seminar Materials,150.00,Training Supplies Ltd.,purchase,-
+316,2027-07-24,Office Air Purifier,200.00,Indoor Air Solutions,purchase,-
+317,2027-08-25,New Employee Welcome Kit,80.00,Welcome Gifts Ltd.,purchase,-
+318,2027-09-26,Office Wall Decorations,150.00,Home Decor Store,purchase,-
+319,2027-10-27,Printer Maintenance Service,120.00,Office Equipment Servicing,purchase,-
+320,2027-11-28,Outdoor Team Building Activity,500.00,Outdoor Adventures,purchase,-
+321,2027-12-29,Office Ergonomic Chair,300.00,Office Furniture Co.,purchase,-
+322,2028-01-30,Coffee Machine,200.00,Coffee Equipment Supplier,purchase,-
+323,2028-03-02,Software Training Course,400.00,Training Academy,purchase,-
+325,2023-01-01,Office Rent,3000.00,Property Management Inc.,overheads,-
+326,2023-02-02,Electricity Bill,500.00,Utility Providers,overheads,-
+327,2023-03-01,Office Space Rental,3500.00,Real Estate Agency,overheads,-
+328,2023-04-01,Water Bill,200.00,Utility Providers,overheads,-
+329,2023-05-01,Monthly Rent Payment,3000.00,Property Management Inc.,overheads,-
+330,2023-06-01,Internet Subscription,100.00,Internet Service Provider,overheads,-
+331,2023-07-01,Rental Expense,3000.00,Property Management Inc.,overheads,-
+332,2023-08-01,Utility Bills,800.00,Utility Providers,overheads,-
+333,2023-09-01,Office Lease Payment,3000.00,Property Management Inc.,overheads,-
+334,2023-10-01,Electricity Usage Charges,400.00,Utility Providers,overheads,-
+335,2023-11-01,Rental Fee,3000.00,Property Management Inc.,overheads,-
+336,2023-12-01,Water and Sewage Charges,150.00,Utility Providers,overheads,-
+337,2024-01-01,Office Rent Expense,3000.00,Property Management Inc.,overheads,-
+338,2024-02-01,Internet and Phone Bills,200.00,Service Providers,overheads,-
+339,2024-03-01,Lease Payment,3000.00,Property Management Inc.,overheads,-
+340,2024-04-01,Utility Costs,800.00,Utility Providers,overheads,-
+341,2024-05-01,Monthly Rent,3000.00,Property Management Inc.,overheads,-
+342,2024-06-01,Electricity and Gas Bills,600.00,Utility Providers,overheads,-
+343,2024-07-01,Office Space Rent,3000.00,Property Management Inc.,overheads,-
+344,2024-08-01,Internet Charges,100.00,Internet Service Provider,overheads,-
+345,2024-09-01,Rental Payment,3000.00,Property Management Inc.,overheads,-
+346,2024-10-01,Water Utility Expense,250.00,Utility Providers,overheads,-
+347,2024-11-01,Office Lease Cost,3000.00,Property Management Inc.,overheads,-
+348,2024-12-01,Internet Subscription Fee,120.00,Internet Service Provider,overheads,-
+349,2025-01-01,Rental Expenditure,3000.00,Property Management Inc.,overheads,-
+350,2025-02-01,Utility Payments,800.00,Utility Providers,overheads,-
+351,2025-03-01,Office Rent Charges,3000.00,Property Management Inc.,overheads,-
+352,2025-04-01,Electricity Expenses,450.00,Utility Providers,overheads,-
+353,2025-05-01,Monthly Lease Fee,3000.00,Property Management Inc.,overheads,-
+354,2025-06-01,Internet Service Charges,150.00,Internet Service Provider,overheads,-
+355,2023-01-01,Insurance Premiums,500.00,Insurance Company,other expenses,-
+356,2023-02-02,Legal Fees,800.00,Law Firm,other expenses,-
+357,2023-03-03,Office Maintenance,200.00,Maintenance Services,other expenses,-
+358,2023-04-04,Professional Development,1000.00,Training Institute,other expenses,-
+359,2023-05-05,Bank Charges,50.00,Bank,other expenses,-
+360,2023-06-06,Travel Expenses,1500.00,Travel Agency,other expenses,-
+361,2023-07-07,Software Subscriptions,300.00,Software Provider,other expenses,-
+362,2023-08-08,Repair and Maintenance,400.00,Repair Services,other expenses,-
+363,2023-09-09,Advertising Expenses,1200.00,Advertising Agency,other expenses,-
+364,2023-10-10,Office Furniture Maintenance,150.00,Furniture Maintenance Services,other expenses,-
+365,2023-11-11,Training and Development,900.00,Training Provider,other expenses,-
+366,2023-12-12,Printing and Stationery,200.00,Stationery Supplier,other expenses,-
+501,2023-01-05,Income Tax Payment,5000.00,Tax Department,taxation,-
+502,2023-02-10,Property Tax Payment,1500.00,County Tax Office,taxation,-
+503,2023-03-15,Sales Tax Remittance,1200.00,State Tax Agency,taxation,-
+504,2023-04-20,Payroll Tax Deposit,2000.00,Tax Authority,taxation,-
+505,2023-05-25,Value Added Tax (VAT) Payment,1800.00,Revenue Service,taxation,-
+506,2023-06-30,Corporate Tax Payment,2500.00,Tax Department,taxation,-
+507,2023-08-05,Excise Tax Remittance,1800.00,Tax Agency,taxation,-
+508,2023-09-10,Customs Duty Payment,3500.00,Customs Office,taxation,-
+509,2023-10-15,Import Tax Payment,2800.00,Tax Authority,taxation,-
+510,2023-11-20,Vehicle Tax Payment,4000.00,Tax Department,taxation,-
+511,2023-12-25,Local Tax Remittance,3200.00,Local Tax Office,taxation,-
+512,2024-02-01,Capital Gains Tax Payment,3800.00,Tax Authority,taxation,-
+513,2024-03-08,Inheritance Tax Payment,2700.00,Tax Department,taxation,-
+514,2024-04-15,Transfer Tax Payment,2200.00,Revenue Service,taxation,-
+515,2024-05-20,Value Added Tax (VAT) Refund,2900.00,Tax Authority,taxation,+
+516,2024-06-25,Income Tax Adjustment,2000.00,Tax Department,taxation,+
+517,2024-08-01,Property Tax Refund,2400.00,County Tax Office,taxation,+
+518,2024-09-05,Sales Tax Rebate,3500.00,State Tax Agency,taxation,+
+519,2024-10-10,Tax Penalty Payment,2800.00,Tax Authority,taxation,-
+520,2024-11-15,Amendment Tax Filing Fee,4000.00,Tax Department,taxation,-
+521,2025-01-01,Corporate Tax Credit,3200.00,Tax Authority,taxation,+
+522,2025-02-06,Excise Tax Exemption,3800.00,Tax Agency,taxation,+
+523,2025-03-13,Customs Duty Refund,2700.00,Customs Office,taxation,+
+524,2025-04-18,Import Tax Exemption,2200.00,Tax Authority,taxation,+
+525,2025-05-23,Vehicle Tax Refund,2900.00,Tax Department,taxation,+
+526,2025-06-28,Local Tax Exemption,2000.00,Local Tax Office,taxation,+
+527,2025-08-04,Capital Gains Tax Credit,2400.00,Tax Authority,taxation,+
+528,2025-09-08,Inheritance Tax Refund,3500.00,Tax Department,taxation,+
+529,2025-10-13,Transfer Tax Exemption,2800.00,Revenue Service,taxation,+
+530,2025-11-18,Value Added Tax (VAT) Adjustment,4000.00,Tax Authority,taxation,+
+531,2026-01-03,Income Tax Rebate,3200.00,Tax Department,taxation,+
+532,2026-02-08,Property Tax Exemption,3800.00,County Tax Office,taxation,+
+533,2026-03-15,Sales Tax Credit,2700.00,State Tax Agency,taxation,+
+534,2026-04-20,Payroll Tax Refund,2200.00,Tax Authority,taxation,+
+535,2026-05-25,Value Added Tax (VAT) Exemption,2900.00,Revenue Service,taxation,+
+536,2026-06-30,Corporate Tax Adjustment,2000.00,Tax Department,taxation,+
+537,2026-08-05,Excise Tax Refund,2400.00,Tax Agency,taxation,+
+
+

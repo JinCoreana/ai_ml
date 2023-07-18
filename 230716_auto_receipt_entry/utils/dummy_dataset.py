@@ -1,34 +1,31 @@
 import csv
 import random
+import string
 
 categories = ['sales', 'other income', 'purchase',
               'direct expense', 'overheads', 'other expenses', 'taxation']
 types = ['+', '+', '-', '-', '-', '-', '-']
 
-# Supplier names and item categories
-supplier_names = ['Acme Corporation', 'Global Enterprises', 'Apex Solutions', 'Pioneer Industries', 'Infinite Ventures', 'Elevate Inc', 'Strategic Holdings',
-                  'ABC Traders', 'XYZ Company', 'Sunrise Enterprises', 'Dynamic Systems', 'Mega Corp', 'Alpha Ltd', 'Omega Solutions',
-                  'Tech Innovators', 'Quality Supplies', 'Prime Industries', 'Powerful Systems', 'Bravo Corporation', 'Sunset Enterprises']
+# Generate a random string of given length
 
-item_categories = {
-    'sales': ['Electronics', 'Software Solutions', 'Consulting Services', 'Industrial Equipment', 'Commercial Vehicles'],
-    'other income': ['Training Programs', 'Intellectual Property', 'Event Management', 'Licensing Fees'],
-    'purchase': ['Raw Materials', 'Office Equipment', 'Machinery', 'Furniture', 'Computers'],
-    'direct expense': ['Labor Costs', 'Shipping Charges', 'Utilities', 'Maintenance Services'],
-    'overheads': ['Rent', 'Insurance', 'Taxes', 'Advertising'],
-    'other expenses': ['Travel Expenses', 'Marketing Campaigns', 'Professional Fees'],
-    'taxation': ['Income Tax', 'Sales Tax', 'Property Tax']
-}
+
+def random_string(length):
+    letters = string.ascii_letters
+    return ''.join(random.choice(letters) for _ in range(length))
+
 
 # Generate random cases for the dataset with diverse supplier names
 dataset = []
 for i in range(100):
     date = f"{random.randint(2023, 2024)}-{random.randint(1, 12):02d}-{random.randint(1, 28):02d}"
     category = random.choice(categories)
-    # Randomly select from the supplier names pool
-    supplier_name = random.choice(
-        supplier_names)
-    item_name = random.choice(item_categories[category])
+
+    # Generate unique supplier name by combining random string with unique identifier
+    supplier_name = f"Supplier-{i+1}-{random_string(4)}"
+
+    # Generate unique item name by combining random string with unique identifier
+    item_name = f"Item-{i+1}-{random_string(4)}"
+
     price = round(random.uniform(30, 800), 2)
     type = types[categories.index(category)]
 
