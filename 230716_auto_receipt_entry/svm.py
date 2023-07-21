@@ -3,11 +3,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn import metrics
-from sklearn.decomposition import PCA
-from sklearn.metrics import classification_report
-from sklearn.metrics import accuracy_score
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, classification_report
+from sklearn.svm import SVC
 
 # Load the labeled data into a pandas DataFrame
 dataset = pd.read_csv('dataset.csv')
@@ -22,8 +20,6 @@ dataset['item'] = dataset['item'].str.lower()
 # Convert categorical columns to numerical representation using one-hot encoding
 vectorizer = CountVectorizer()
 X = vectorizer.fit_transform(dataset['supplier'] + ' ' + dataset['item'])
-pca = PCA(n_components=2)
-X = pca.fit_transform(X.toarray())
 
 # Split the data into features (X) and target (y)
 y = dataset['category']
@@ -32,49 +28,41 @@ y = dataset['category']
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=42)
 
-
-# Train the KNN classifier
-k = 5  # Number of neighbors
-knn = KNeighborsClassifier(n_neighbors=k)
-knn.fit(X_train, y_train)
+# Train the SVM model
+svm_classifier = SVC()
+svm_classifier.fit(X_train, y_train)
 
 # Predict the categories for the test set
-y_pred = knn.predict(X_test)
-
-# Print the KNN graph
-print("KNN Graph:")
-print(knn.kneighbors_graph(X_test))
+y_pred = svm_classifier.predict(X_test)
 
 # Calculate evaluation metrics
-jaccard_index = metrics.jaccard_score(y_test, y_pred, average='weighted')
-f1_score = metrics.f1_score(y_test, y_pred, average='weighted')
+accuracy = accuracy_score(y_test, y_pred)
+classification_report = classification_report(y_test, y_pred)
 
 # Print the evaluation metrics
-print("Jaccard Index: {:.2f}".format(jaccard_index))
-print("F1 Score: {:.2f}".format(f1_score))
-
-accuracy = accuracy_score(y_test, y_pred)
-# Evaluate the model
-classification_report = classification_report(y_test, y_pred)
-print("Classification Report:\n", classification_report)
+print("SVM Results:")
 print("Accuracy: {:.2f}".format(accuracy))
-
-# Get unique categories
-categories = dataset['category'].unique()
-
-
-# Create a color mapping for the categories
-category_mapping = {category: i for i,
-                    category in enumerate(dataset['category'].unique())}
-color_mapping = [category_mapping[category] for category in y_test]
+print("Classification Report:\n", classification_report)
 
 # Plot the decision boundary
+category_mapping = {category: i for i,
+                    category in enumerate(dataset['category'].unique())}
 plt.figure(figsize=(10, 6))
 for category, color in category_mapping.items():
     plt.scatter(X_test[y_test == category, 0], X_test[y_test == category, 1],
                 label=category)
+
+# Plot the decision boundary for SVM
+h = .02  # Step size in the mesh
+x_min, x_max = X_test[:, 0].min() - 1, X_test[:, 0].max() + 1
+y_min, y_max = X_test[:, 1].min() - 1, X_test[:, 1].max() + 1
+xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
+Z = svm_classifier.predict(np.c_[xx.ravel(), yy.ravel()])
+Z = Z.reshape(xx.shape)
+plt.contourf(xx, yy, Z, alpha=0.8, cmap=plt.cm.jet)
+
 plt.xlabel('Feature 1')
 plt.ylabel('Feature 2')
-plt.title('KNN Decision Boundary')
+plt.title('SVM Decision Boundary')
 plt.legend()
 plt.show()

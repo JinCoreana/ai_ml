@@ -27,7 +27,7 @@ def train_model():
 
     # Convert text data into numerical features using CountVectorizer
     vectorizer = CountVectorizer()
-    X_vectorized = vectorizer.fit_transform(dataset["item name"])
+    X_vectorized = vectorizer.fit_transform(dataset["item"])
 
     # Encode the categorical "category" variable
 
@@ -41,7 +41,7 @@ def train_model():
 
 
 # Example usage
-image_path = "./data/data5.png"
+image_path = "./data/data6.png"
 
 # Step 2: Extract text from receipt image
 text = extract_text_from_image(image_path)
